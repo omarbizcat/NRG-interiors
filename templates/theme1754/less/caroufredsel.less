@@ -1,0 +1,66 @@
+// Core variables and mixins
+@import "variables.less"; // Custom for this template
+@import "../../../media/jui/less/mixins.less";
+
+.mod_caroufredsel{
+  overflow: hidden;
+}
+
+.list_carousel {
+  padding: 0;
+  width: auto;
+  position: relative;
+  margin: 0;
+  ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: block;
+    li {
+      padding: 0 110px;
+      margin: 0;
+      display: block;
+      float: left;
+    }
+  }
+} 
+.clearfix {
+  float: none;
+  clear: both;
+}
+
+/*Navigation*/
+
+.caroufredsel_prev,
+.caroufredsel_next{
+  position: absolute;
+  top: 50%;
+  display: block;
+  margin: -10px 0 0 0;
+  text-align: center;
+  color:@linkColor;
+  font-size: 30px;
+  .transition(all 0.5s ease);
+    cursor: pointer;
+  &:hover{
+    color:@linkColorHover;
+  }
+}
+
+.caroufredsel_prev{
+  left:0;
+}
+
+.caroufredsel_next{
+  right:0;
+}
+
+/*Pagination*/
+
+.caroufredsel_pagination{
+  text-align: center;
+  a{
+    display: inline-block;
+    padding: 0 0.5em;
+  }
+}

@@ -1,0 +1,39 @@
+// Core variables and mixins
+@import "variables.less"; // Custom for this template
+@import "../../../media/jui/less/mixins.less";
+
+#section-kmt{
+  .kmt-form-content{
+    .kmt-form-addon{
+      > div{
+        .input.kmt-location{
+          max-width: 1000px !important;
+        }
+      }
+    }
+  }
+}
+
+.gallery-item .view{
+  .mask, .content{
+    display: none;
+  }
+  &:hover{
+  	.mask, .content{
+    	display: block;
+  	}
+  }
+}
+#contact_map{height: 376px;}
+  ul.gallery{
+    margin-left: -@gridGutterWidth;
+    .gallery-item{
+      padding-left: @gridGutterWidth;
+    }
+  }
+  .top_blocks .item .item_introtext{
+    padding: 0 0 10px;
+  }
+  .list_carousel ul li{
+    padding: 0 25px !important;
+  }

@@ -1,0 +1,86 @@
+.clearfix {
+  *zoom: 1;
+}
+.clearfix:before,
+.clearfix:after {
+  display: table;
+  content: "";
+  line-height: 0;
+}
+.clearfix:after {
+  clear: both;
+}
+.hide-text {
+  font: 0/0 a;
+  color: transparent;
+  text-shadow: none;
+  background-color: transparent;
+  border: 0;
+}
+.input-block-level {
+  display: block;
+  width: 100%;
+  min-height: 34px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.mod_caroufredsel {
+  overflow: hidden;
+}
+.list_carousel {
+  padding: 0;
+  width: auto;
+  position: relative;
+  margin: 0;
+}
+.list_carousel ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: block;
+}
+.list_carousel ul li {
+  padding: 0 110px;
+  margin: 0;
+  display: block;
+  float: left;
+}
+.clearfix {
+  float: none;
+  clear: both;
+}
+/*Navigation*/
+.caroufredsel_prev,
+.caroufredsel_next {
+  position: absolute;
+  top: 50%;
+  display: block;
+  margin: -10px 0 0 0;
+  text-align: center;
+  color: #bdbdbd;
+  font-size: 30px;
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+  cursor: pointer;
+}
+.caroufredsel_prev:hover,
+.caroufredsel_next:hover {
+  color: #202062;
+}
+.caroufredsel_prev {
+  left: 0;
+}
+.caroufredsel_next {
+  right: 0;
+}
+/*Pagination*/
+.caroufredsel_pagination {
+  text-align: center;
+}
+.caroufredsel_pagination a {
+  display: inline-block;
+  padding: 0 0.5em;
+}
