@@ -561,8 +561,13 @@ ul#filters li .selected {
   float: left;
 }
 .contact_address {
-  overflow: hidden;
+  overflow: hidden; width:118px;
 }
+
+.contact_misc,.contact_form {
+	display:none;
+}
+
 #contact_map {
   margin-bottom: 24px;
   border: 1px solid #d9d9d9;
@@ -573,6 +578,10 @@ ul#filters li .selected {
 }
 .contact_details_item {
   margin-bottom: 20px;
+}
+
+.contact_details h3 {
+	text-align:left !important;
 }
 /*======================= User Pages ========================*/
 .page-login form .control-group {

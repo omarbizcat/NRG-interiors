@@ -73,10 +73,8 @@ h4 {
 h5 {
   font-size: 24px;
   line-height: 26px;
-  text-transform: lowercase;
-  color: #48423e;
-  margin-bottom: 0;
-}
+   color: #48423e;
+ }
 h6 {
   font-size: 16px;
   line-height: 24px;
@@ -857,17 +855,22 @@ blockquote small span {
 }
 
 
+.body__home .topCallUsNow {
+ max-width:1132px; margin:0 auto;
+ text-align:right; color:#fff; font-weight:bold; text-transform:uppercase; font-size:20px; margin-top:5px; margin-bottom:5px;
+}
+
 .topCallUsNow {
-	max-width:1132px; margin:0 auto;
-	text-align:right; color:#fff; font-weight:bold; text-transform:uppercase; font-size:17px; margin-top:5px; margin-bottom:5px;
-}	
+ max-width:1132px; margin:0 auto;
+ text-align:right; color:#48423e; font-weight:bold; text-transform:uppercase; font-size:20px; margin-top:5px; margin-bottom:5px;
+}
 
 .topCallUsNow span {
 	margin-right:38px;
 }
 
 #footer-wrapper .span6 {
-	width:173px !important;
+	width:190px !important;
 }
 
 #footer-wrapper .mod-menu,.year,.copy,.privacy_link  {
@@ -879,7 +882,7 @@ blockquote small span {
 }
 
 .footerMenuLink a {
-	color:#fff; padding-left:12px; text-transform:uppercase;
+	color:#fff; padding-left:35px; text-transform:uppercase; font-size:17px; font-weight:bold;
 }
 .footerMenuLink a:hover {
 	color:#ff9966;
@@ -887,7 +890,7 @@ blockquote small span {
 
 .faceBookLnk {
 	background:url(../images/icon-facebook.gif) no-repeat;
-	padding:10px 0 11px 60px; color:#fff;
+	padding:10px 0 11px 60px; color:#fff; font-size:17px; font-weight:bold;
 }
 
 .faceBookLnk a {
@@ -903,9 +906,9 @@ blockquote small span {
 }
 
 .footerCopyRgt a {
-	color:#fff; padding-left:12px;
+	color:#fff; padding-left:12px; text-transform:uppercase; font-size:15px;
 }
 
 .footerCopyRgt a:hover {
-	color:#ff9966;
+	color:#ff9966; text-transform:uppercase; font-size:15px;
 }

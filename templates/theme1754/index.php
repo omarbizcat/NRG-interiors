@@ -252,7 +252,7 @@ include_once ('includes/includes.php');
 ?>
                 </div>
                 <div class="clearfix"></div>
-                <div class="footerCopyRgt">2014 &copy; <a href="index.php/privacy-policy">Privacy Policy</a>  <a href="index.php/terms-of-use">Terms &amp; Conditions</a>
+                <div class="footerCopyRgt">2014 &copy; <a href="index.php/privacy-policy">Privacy Policy</a>  <a href="index.php/terms-and-conditions">Terms &amp; Conditions</a>
 </div>
               </div>
             </div>
